@@ -2,7 +2,7 @@
 
 session_start();
 
-require('twitteroauth/twitteroauth.php');
+require('twitteroauth.php');
 
 $connection = new TwitterOAuth('4JPhVqb8l96ViuOlQaDKQK85h', 'E7chGojc5ZwNfAEHeI5BQDtk5xCKHL7N7GAl4QBM6Anfa6mIYR');
 $request_token = $connection->getRequestToken();
